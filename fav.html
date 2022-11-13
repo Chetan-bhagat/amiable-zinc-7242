@@ -9,6 +9,7 @@
     <link rel="icon" href="logo.jpg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
     <style>
+        h1{ color:teal}
         #favcount {
             background-color: red;
             border-radius: 50%;
@@ -536,10 +537,10 @@
     </div>
 
     <div id="page">
-        <h1>The favorites item are here...</h1>
-        <h3>Save more with coupons upto 70% off</h3>
+        <h1>The <span id="autotype"></span></h1>
+        <h3><spam id="auto2"></spam></h3>
     </div>
-    <h1> Favorites ❤️</h1>
+    <h1> Favorites <i class="fa-solid fa-heart fa-beat"></i></h1>
     <div id="item">
     </div>
     <div id="bottom1">
@@ -660,7 +661,28 @@
     <div id="copyright">Copyright © 2014-2022 Gearbest.com. All Rights Reserved.</div>
 
 
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12">
 
+    </script>
+    <script>
+        var typed= new Typed("#autotype",{
+            strings : ["Favorites Items are here...."],
+            typeSpeed: 50,
+            backSpeed: 50,
+            loop: true
+        })
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12">
+
+    </script>
+    <script>
+        var typed= new Typed("#auto2",{
+            strings : ["Save more with coupons upto 70% off....😍"],
+            typeSpeed: 50,
+            backSpeed: 50,
+            loop: true
+        })
+    </script>
 </body>
 
 </html>

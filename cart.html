@@ -9,6 +9,7 @@
     <link rel="icon" href="logo.jpg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
     <style>
+        
         #favcount {
             background-color: red;
             border-radius: 50%;
@@ -517,15 +518,15 @@
     </div>
 
     <div id="page">
-        <h1>Place the order with lowest prise...</h1>
-        <h3>Save more with coupons upto 70% off</h3>
+        <h1><spam id="autotype"></spam></h1>
+        <h3><spam id="auto2"></spam></h3>
     </div>
     <h1> Cart <i class="fa-sharp fa-solid fa-cart-shopping"></i></h1>
     <h1>Total amount to be pay:- <span id="totalbill"></span></h1>
     <div id="item">
 
     </div>
-    <button id="procced">Procced for payment>></button>
+    <button id="procced"><span id="auto3"></span></button>
     <div id="bottom1">
 
         <div>
@@ -642,6 +643,42 @@
         </div>
     </div>
     <div id="copyright">Copyright © 2014-2022 Gearbest.com. All Rights Reserved.</div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12">
+
+    </script>
+    <script>
+        var typed= new Typed("#autotype",{
+            strings : ["Place the order with lowest price..."],
+            typeSpeed: 50,
+            backSpeed: 50,
+            loop: true
+        })
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12">
+
+    </script>
+    <script>
+        var typed= new Typed("#auto2",{
+            strings : ["Save more with coupons upto 70% off....😍"],
+            typeSpeed: 50,
+            backSpeed: 50,
+            loop: true
+        })
+    </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12">
+
+    </script>
+    <script>
+        var typed= new Typed("#auto3",{
+            strings : ["Procced for payment>>"],
+            typeSpeed: 50,
+            backSpeed: 50,
+            loop: true
+        })
+    </script>
+    
+   
 
 </body>
 
