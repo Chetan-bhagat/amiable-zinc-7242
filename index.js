@@ -3,13 +3,13 @@ document.querySelector("#home").addEventListener("click", () => {
 })
 favcount()
 function favcount() {
-    let arr = JSON.parse(localStorage.getItem("fav") || [])
+    let arr = JSON.parse(localStorage.getItem("fav")) || []
     document.querySelector("#favcount").innerText = arr.length
 
 }
 cartcount()
 function cartcount() {
-    let arr = JSON.parse(localStorage.getItem("cart") || [])
+    let arr = JSON.parse(localStorage.getItem("cart")) || []
     document.querySelector("#cartcount").innerText = arr.length
     location.reload
 }
@@ -34,6 +34,7 @@ let y = setInterval(() => {
         j = 0
     }
 }, 1500)
+
 document.querySelector("#collection")
 let collection_arr = [{
     id: 0,
@@ -744,13 +745,12 @@ document.querySelector("#point").addEventListener("submit", (event) => {
 
 })
 let allproduct = [...collection_arr, ...superdeal_arr, ...recommended_arr]
-console.log(allproduct)
 document.querySelector("#search").addEventListener("input", () => {
     let input = document.querySelector("#search").value
     let x = allproduct.filter((ele) => {
         return ele.discription.toLowerCase().includes(input.toLowerCase())
     })
-    console.log(x)
+   
     recommended(x);
 })
 
