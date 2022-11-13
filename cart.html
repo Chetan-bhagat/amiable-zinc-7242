@@ -661,7 +661,7 @@
             let des = document.createElement("p")
             des.innerText = cart_arr[i].discription || "";
             let price = document.createElement("h3")
-            price.innerText = Math.round(cart_arr[i].price) * count[i];
+            price.innerText = "Rs. " +  Math.round(cart_arr[i].price) * count[i];
             let min = document.createElement("button")
             min.innerText = "-";
             min.addEventListener("click", () => {
@@ -704,7 +704,7 @@
             for (let i = 0; i < cart_arr.length; i++) {
                 total += cart_arr[i].price * count[i]
             }
-            document.querySelector("#totalbill").innerText = "$ " + total
+            document.querySelector("#totalbill").innerText = "Rs. " + Math.round(total)
         } total()
     }
 

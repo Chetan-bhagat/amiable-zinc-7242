@@ -676,7 +676,7 @@
             let des = document.createElement("p")
             des.innerText = fav_arr[i].discription || "";
             let price = document.createElement("h3")
-            price.innerText = fav_arr[i].price || "";
+            price.innerText = "Rs. " +  fav_arr[i].price || "";
             let cart = document.createElement("button")
             cart.innerText = "Add to cart";
             cart.addEventListener("click", () => {

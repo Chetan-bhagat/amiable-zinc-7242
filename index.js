@@ -198,7 +198,7 @@ function superdeal() {
         let markprise = document.createElement("h4")
         markprise.innerText = superdeal_arr[i].martprise;
         let price = document.createElement("h3")
-        price.innerText = superdeal_arr[i].price;
+        price.innerText = "Rs. " + superdeal_arr[i].price;
         let fav = document.createElement("i")
         fav.setAttribute("class", "fa-regular fa-heart");
         fav.addEventListener("click", () => {
@@ -292,7 +292,7 @@ function newsub() {
         let markprise = document.createElement("h4")
         markprise.innerText = newsub_arr[i].martprise;
         let price = document.createElement("h3")
-        price.innerText = newsub_arr[i].price;
+        price.innerText = "Rs. " + newsub_arr[i].price;
         let fav = document.createElement("i")
         fav.setAttribute("class", "fa-regular fa-heart");
         fav.addEventListener("click", () => {
@@ -633,7 +633,7 @@ function recommended(recommended_arr) {
         let des = document.createElement("p")
         des.innerText = recommended_arr[i].discription;
         let price = document.createElement("h3")
-        price.innerText = recommended_arr[i].price;
+        price.innerText = "Rs. " +  recommended_arr[i].price;
         let fav = document.createElement("i")
         fav.setAttribute("class", "fa-regular fa-heart");
         fav.addEventListener("click", () => {
