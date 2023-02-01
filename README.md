@@ -12,8 +12,8 @@
 <br>
 <p >Click here to visit the site: <a href="https://cb-fashionshop.netlify.app/index.html">https://cb-fashionshop.netlify.app/index.html</a></p>
 <br>
-<img align="center" width="800" heigth:"500"  alt="project3" src="https://user-imaes.githubusercontent.com/113410376/214221931-369db1d6-716f-4304-8ddc-a41f33875b35.png">
-
+<!-- <img align="center" width="800" heigth:"500"  alt="project3" src="https://user-imaes.githubusercontent.com/113410376/214221931-369db1d6-716f-4304-8ddc-a41f33875b35.png">
+ -->
 <br>
 <h3>✨Content & Features: </h3>
 <ul>
